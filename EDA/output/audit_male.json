@@ -1,0 +1,814 @@
+{
+  "analysis": {
+    "audit_type": "missingness_group_and_split_leakage",
+    "automatic_imputation_or_deletion": false,
+    "leakage_audit": {
+      "entity_tokens_in_multiple_splits": 0,
+      "group_tokens_in_multiple_splits": 0,
+      "identical_row_hashes_in_multiple_splits": 0,
+      "overlapping_split_time_interval_pairs": 0,
+      "rows_with_missing_split": 0,
+      "scope_warning": "No finding is not proof of no leakage, especially for truncated scans or unprovided entity/group/time roles.",
+      "status": "not_assessed_without_split_column",
+      "tracking_truncated": false,
+      "unparseable_nonmissing_time_values": 0
+    },
+    "maximum_group_missingness_gaps": [
+      {
+        "column_id": "序号",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "孕妇代码",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "年龄",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "身高",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "体重",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "末次月经",
+        "maximum_group_missingness_gap": 0.011267605633802818
+      },
+      {
+        "column_id": "IVF妊娠",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "检测日期",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "检测抽血次数",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "检测孕周",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "孕妇BMI",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "原始读段数",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "在参考基因组上比对的比例",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "重复读段的比例",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "唯一比对的读段数",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "GC含量",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "13号染色体的Z值",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "18号染色体的Z值",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "21号染色体的Z值",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "X染色体的Z值",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "Y染色体的Z值",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "Y染色体浓度",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "X染色体浓度",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "13号染色体的GC含量",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "18号染色体的GC含量",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "21号染色体的GC含量",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "被过滤掉读段数的比例",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "染色体的非整倍体",
+        "maximum_group_missingness_gap": 0.11737089201877937
+      },
+      {
+        "column_id": "怀孕次数",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "生产次数",
+        "maximum_group_missingness_gap": 0.0
+      },
+      {
+        "column_id": "胎儿是否健康",
+        "maximum_group_missingness_gap": 0.0
+      }
+    ],
+    "missing_code_policy": {
+      "additional_token_count": 0,
+      "empty_or_whitespace_is_missing": true,
+      "tokens_are_not_emitted": true
+    },
+    "missingness_by_group": [
+      {
+        "column_missingness": [
+          {
+            "column_id": "序号",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "孕妇代码",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "年龄",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "身高",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "体重",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "末次月经",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "IVF妊娠",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "检测日期",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "检测抽血次数",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "检测孕周",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "孕妇BMI",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "原始读段数",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "在参考基因组上比对的比例",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "重复读段的比例",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "唯一比对的读段数",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "GC含量",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "13号染色体的Z值",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "18号染色体的Z值",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "21号染色体的Z值",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "X染色体的Z值",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "Y染色体的Z值",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "Y染色体浓度",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "X染色体浓度",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "13号染色体的GC含量",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "18号染色体的GC含量",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "21号染色体的GC含量",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "被过滤掉读段数的比例",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "染色体的非整倍体",
+            "missing_count": 8,
+            "missing_fraction": 1.0
+          },
+          {
+            "column_id": "怀孕次数",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "生产次数",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "胎儿是否健康",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          }
+        ],
+        "group_token": "group_17598d5b1951b1af",
+        "row_count": 8
+      },
+      {
+        "column_missingness": [
+          {
+            "column_id": "序号",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "孕妇代码",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "年龄",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "身高",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "体重",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "末次月经",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "IVF妊娠",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "检测日期",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "检测抽血次数",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "检测孕周",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "孕妇BMI",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "原始读段数",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "在参考基因组上比对的比例",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "重复读段的比例",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "唯一比对的读段数",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "GC含量",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "13号染色体的Z值",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "18号染色体的Z值",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "21号染色体的Z值",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "X染色体的Z值",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "Y染色体的Z值",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "Y染色体浓度",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "X染色体浓度",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "13号染色体的GC含量",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "18号染色体的GC含量",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "21号染色体的GC含量",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "被过滤掉读段数的比例",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "染色体的非整倍体",
+            "missing_count": 8,
+            "missing_fraction": 0.8888888888888888
+          },
+          {
+            "column_id": "怀孕次数",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "生产次数",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "胎儿是否健康",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          }
+        ],
+        "group_token": "group_257a2250440fbee0",
+        "row_count": 9
+      },
+      {
+        "column_missingness": [
+          {
+            "column_id": "序号",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "孕妇代码",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "年龄",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "身高",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "体重",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "末次月经",
+            "missing_count": 12,
+            "missing_fraction": 0.011267605633802818
+          },
+          {
+            "column_id": "IVF妊娠",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "检测日期",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "检测抽血次数",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "检测孕周",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "孕妇BMI",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "原始读段数",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "在参考基因组上比对的比例",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "重复读段的比例",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "唯一比对的读段数",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "GC含量",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "13号染色体的Z值",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "18号染色体的Z值",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "21号染色体的Z值",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "X染色体的Z值",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "Y染色体的Z值",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "Y染色体浓度",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "X染色体浓度",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "13号染色体的GC含量",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "18号染色体的GC含量",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "21号染色体的GC含量",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "被过滤掉读段数的比例",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "染色体的非整倍体",
+            "missing_count": 940,
+            "missing_fraction": 0.8826291079812206
+          },
+          {
+            "column_id": "怀孕次数",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "生产次数",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          },
+          {
+            "column_id": "胎儿是否健康",
+            "missing_count": 0,
+            "missing_fraction": 0.0
+          }
+        ],
+        "group_token": "group_f4aff744aae22ac1",
+        "row_count": 1065
+      }
+    ],
+    "missingness_by_split": [],
+    "overall_missingness": [
+      {
+        "column_id": "序号",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "孕妇代码",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "年龄",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "身高",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "体重",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "末次月经",
+        "missing_count": 12,
+        "missing_fraction": 0.011090573012939002
+      },
+      {
+        "column_id": "IVF妊娠",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "检测日期",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "检测抽血次数",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "检测孕周",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "孕妇BMI",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "原始读段数",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "在参考基因组上比对的比例",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "重复读段的比例",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "唯一比对的读段数",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "GC含量",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "13号染色体的Z值",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "18号染色体的Z值",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "21号染色体的Z值",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "X染色体的Z值",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "Y染色体的Z值",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "Y染色体浓度",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "X染色体浓度",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "13号染色体的GC含量",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "18号染色体的GC含量",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "21号染色体的GC含量",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "被过滤掉读段数的比例",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "染色体的非整倍体",
+        "missing_count": 956,
+        "missing_fraction": 0.8835489833641405
+      },
+      {
+        "column_id": "怀孕次数",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "生产次数",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      },
+      {
+        "column_id": "胎儿是否健康",
+        "missing_count": 0,
+        "missing_fraction": 0.0
+      }
+    ],
+    "raw_values_emitted": false,
+    "row_limit_reached": false,
+    "rows_scanned": 1082
+  },
+  "capability": {
+    "dependency": "Python standard library",
+    "depth": "bounded schema, aggregate profile, missingness, and sensitivity audit",
+    "format": "CSV",
+    "reference": "references/general_scientific_formats.md",
+    "suffix": ".csv",
+    "tier": "automated_core"
+  },
+  "interpretation": {
+    "domain_design_review_required": true,
+    "no_overlap_found_is_not_proof_of_independence": true,
+    "potential_overlap_is_not_proof_of_model_leakage": true
+  },
+  "schema_version": "1.1",
+  "security": {
+    "embedded_instructions_followed": false,
+    "file_text_is_untrusted_data": true,
+    "local_only": true,
+    "raw_values_paths_and_entity_ids_emitted": false
+  }
+}

@@ -1,0 +1,1431 @@
+{
+  "analysis": {
+    "column_count": 31,
+    "columns": [
+      {
+        "column_id": "序号",
+        "column_index": 0,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 1082,
+        "inferred_kind": "integer",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 1,
+            "value_token": "value_00058417a64dc70b"
+          },
+          {
+            "count": 1,
+            "value_token": "value_007d15a463ac3282"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00835988ab01e794"
+          },
+          {
+            "count": 1,
+            "value_token": "value_0096993e05201f05"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00f8f014b4a3ea7b"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 1082.0,
+          "mean": 541.5,
+          "median": 541.0,
+          "minimum": 1.0,
+          "q1": 245.75,
+          "q3": 841.25,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 312.490799864572
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "孕妇代码",
+        "column_index": 1,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 3,
+        "inferred_kind": "text",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 423,
+            "value_token": "value_559510487aa989d7"
+          },
+          {
+            "count": 387,
+            "value_token": "value_9eed2d3f164a2391"
+          },
+          {
+            "count": 272,
+            "value_token": "value_102121f2c5e9e680"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_parse_count": 0,
+        "text_aggregates": {
+          "count": 1082,
+          "maximum_character_count": 4,
+          "mean_character_count": 4.0
+        },
+        "text_parse_count": 1082
+      },
+      {
+        "column_id": "年龄",
+        "column_index": 2,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 21,
+        "inferred_kind": "integer",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 143,
+            "value_token": "value_9ad2ed04ac59d0b2"
+          },
+          {
+            "count": 135,
+            "value_token": "value_e37c51f4e97a1e5c"
+          },
+          {
+            "count": 127,
+            "value_token": "value_702227e8cbccb42e"
+          },
+          {
+            "count": 104,
+            "value_token": "value_b840d2f30cffa686"
+          },
+          {
+            "count": 99,
+            "value_token": "value_3e720184ce497b53"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 43.0,
+          "mean": 28.939926062846595,
+          "median": 29.0,
+          "minimum": 21.0,
+          "q1": 27.0,
+          "q3": 31.0,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 3.656263895625453
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "身高",
+        "column_index": 3,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 29,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 119,
+            "value_token": "value_ce5e2a0092a6a468"
+          },
+          {
+            "count": 101,
+            "value_token": "value_2453409106d90e8e"
+          },
+          {
+            "count": 86,
+            "value_token": "value_8245412636eec6ec"
+          },
+          {
+            "count": 81,
+            "value_token": "value_50c024740efffdc5"
+          },
+          {
+            "count": 62,
+            "value_token": "value_daf71daff8798426"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 175.0,
+          "mean": 161.06377079482448,
+          "median": 160.0,
+          "minimum": 144.0,
+          "q1": 158.0,
+          "q3": 165.0,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 5.232176459591934
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "体重",
+        "column_index": 4,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 513,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 41,
+            "value_token": "value_b75b7c51e0a9ac63"
+          },
+          {
+            "count": 36,
+            "value_token": "value_651d0706bfa4200f"
+          },
+          {
+            "count": 35,
+            "value_token": "value_1c3fdf77c075dafa"
+          },
+          {
+            "count": 34,
+            "value_token": "value_a0368775d5d75faa"
+          },
+          {
+            "count": 33,
+            "value_token": "value_a1c8302e03bee2b6"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 140.0,
+          "mean": 83.89483364140476,
+          "median": 83.0,
+          "minimum": 53.0,
+          "q1": 77.0,
+          "q3": 89.625,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 9.91795028490717
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "末次月经",
+        "column_index": 5,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 189,
+        "inferred_kind": "text",
+        "missing_count": 12,
+        "missing_fraction": 0.011090573012939002,
+        "most_frequent_value_tokens": [
+          {
+            "count": 32,
+            "value_token": "value_45f2ede8fe914df7"
+          },
+          {
+            "count": 13,
+            "value_token": "value_3534d5a7646203db"
+          },
+          {
+            "count": 12,
+            "value_token": "value_079cf2f4574ed5fe"
+          },
+          {
+            "count": 12,
+            "value_token": "value_19c5a15ff03c4bf3"
+          },
+          {
+            "count": 12,
+            "value_token": "value_1efe9163cb9ec238"
+          }
+        ],
+        "non_missing_count": 1070,
+        "numeric_parse_count": 0,
+        "text_aggregates": {
+          "count": 1070,
+          "maximum_character_count": 19,
+          "mean_character_count": 15.669158878504673
+        },
+        "text_parse_count": 1070
+      },
+      {
+        "column_id": "IVF妊娠",
+        "column_index": 6,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 3,
+        "inferred_kind": "text",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 1065,
+            "value_token": "value_ffd629af2e140caf"
+          },
+          {
+            "count": 9,
+            "value_token": "value_f8edd0483e6b2f39"
+          },
+          {
+            "count": 8,
+            "value_token": "value_87a8d5b61b47fe14"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_parse_count": 0,
+        "text_aggregates": {
+          "count": 1082,
+          "maximum_character_count": 9,
+          "mean_character_count": 4.078558225508318
+        },
+        "text_parse_count": 1082
+      },
+      {
+        "column_id": "检测日期",
+        "column_index": 7,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 379,
+        "inferred_kind": "mixed",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 12,
+            "value_token": "value_045b11825e7f5787"
+          },
+          {
+            "count": 12,
+            "value_token": "value_52e64c5670d25a61"
+          },
+          {
+            "count": 10,
+            "value_token": "value_5b622199c2019eba"
+          },
+          {
+            "count": 10,
+            "value_token": "value_dae4c8a796acff02"
+          },
+          {
+            "count": 10,
+            "value_token": "value_fc819cd39c2ee491"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 686,
+          "maximum": 20240526.0,
+          "mean": 20232770.86734693,
+          "median": 20230813.0,
+          "minimum": 20230101.0,
+          "q1": 20230610.0,
+          "q3": 20231216.5,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 3883.5737009120357
+        },
+        "numeric_parse_count": 686,
+        "text_aggregates": {
+          "count": 396,
+          "maximum_character_count": 19,
+          "mean_character_count": 19.0
+        },
+        "text_parse_count": 396
+      },
+      {
+        "column_id": "检测抽血次数",
+        "column_index": 8,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 5,
+        "inferred_kind": "integer",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 279,
+            "value_token": "value_d11015b966c44696"
+          },
+          {
+            "count": 270,
+            "value_token": "value_a9065080f34dc675"
+          },
+          {
+            "count": 266,
+            "value_token": "value_4b2dd5566bf1eea4"
+          },
+          {
+            "count": 264,
+            "value_token": "value_a0e95fe33f7fbd67"
+          },
+          {
+            "count": 3,
+            "value_token": "value_c833dcdc897d80fc"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 5.0,
+          "mean": 2.4879852125693147,
+          "median": 3.0,
+          "minimum": 1.0,
+          "q1": 2.0,
+          "q3": 4.0,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 1.1275475042916059
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "检测孕周",
+        "column_index": 9,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 108,
+        "inferred_kind": "text",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 34,
+            "value_token": "value_deea075b626dae38"
+          },
+          {
+            "count": 29,
+            "value_token": "value_aad4719aa518e974"
+          },
+          {
+            "count": 28,
+            "value_token": "value_90627ff10b79e545"
+          },
+          {
+            "count": 27,
+            "value_token": "value_ec5994bafeb16a57"
+          },
+          {
+            "count": 25,
+            "value_token": "value_95341a8e1065d18b"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_parse_count": 0,
+        "text_aggregates": {
+          "count": 1082,
+          "maximum_character_count": 5,
+          "mean_character_count": 4.757855822550832
+        },
+        "text_parse_count": 1082
+      },
+      {
+        "column_id": "孕妇BMI",
+        "column_index": 10,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 783,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 10,
+            "value_token": "value_7a283f1c8df94b60"
+          },
+          {
+            "count": 9,
+            "value_token": "value_a3bfc50b81c70b00"
+          },
+          {
+            "count": 9,
+            "value_token": "value_c209d88c7c512b83"
+          },
+          {
+            "count": 9,
+            "value_token": "value_d341a36320b22dbc"
+          },
+          {
+            "count": 8,
+            "value_token": "value_f57d09b2712ff665"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 46.875,
+          "mean": 32.28879078882741,
+          "median": 31.56445663010785,
+          "minimum": 20.703125,
+          "q1": 30.0432623,
+          "q3": 33.78713585160685,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 2.972432009058639
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "原始读段数",
+        "column_index": 11,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 1082,
+        "inferred_kind": "integer",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 1,
+            "value_token": "value_004fe795475590b6"
+          },
+          {
+            "count": 1,
+            "value_token": "value_005ab33b10da5d0e"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00891c15fcd20eb5"
+          },
+          {
+            "count": 1,
+            "value_token": "value_008d67077c33c0df"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00ac13b2ae82a14a"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 9895358.0,
+          "mean": 4692190.235674678,
+          "median": 4671619.0,
+          "minimum": 1342544.0,
+          "q1": 4129179.25,
+          "q3": 5233477.0,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 948737.9532073577
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "在参考基因组上比对的比例",
+        "column_index": 12,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 1080,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 2,
+            "value_token": "value_702b98972a4fc769"
+          },
+          {
+            "count": 2,
+            "value_token": "value_f20dfa421f8b839e"
+          },
+          {
+            "count": 1,
+            "value_token": "value_003bfea6ce54b563"
+          },
+          {
+            "count": 1,
+            "value_token": "value_003f4e71b5c8fccb"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00409241f69e0d59"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 0.846620403,
+          "mean": 0.7974720650804067,
+          "median": 0.80100775,
+          "minimum": 0.5986381,
+          "q1": 0.7903484599999999,
+          "q3": 0.80677705,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 0.014951434940374833
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "重复读段的比例",
+        "column_index": 13,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 1082,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 1,
+            "value_token": "value_001bdfebbeab338e"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00449cdd248a8c1a"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00b2bc0f5a3edf33"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00d4c66144f94b9e"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00dd53d88eaf2f98"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 0.04651945,
+          "mean": 0.03047394025878004,
+          "median": 0.0301729415,
+          "minimum": 0.02115006,
+          "q1": 0.02861482825,
+          "q3": 0.03191491775,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 0.0027470825667931815
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "唯一比对的读段数",
+        "column_index": 14,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 1082,
+        "inferred_kind": "integer",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 1,
+            "value_token": "value_003df5987769d494"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00e2db58847d020f"
+          },
+          {
+            "count": 1,
+            "value_token": "value_01043dd18fcc3f66"
+          },
+          {
+            "count": 1,
+            "value_token": "value_01090a2043d37054"
+          },
+          {
+            "count": 1,
+            "value_token": "value_012ac531ee13e348"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 7342907.0,
+          "mean": 3546560.647874306,
+          "median": 3545917.0,
+          "minimum": 980606.0,
+          "q1": 3097509.25,
+          "q3": 3991570.5,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 712817.8684176591
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "GC含量",
+        "column_index": 15,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 1080,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 2,
+            "value_token": "value_01dca3d4dabc1dc0"
+          },
+          {
+            "count": 2,
+            "value_token": "value_331687ec1a36aa78"
+          },
+          {
+            "count": 1,
+            "value_token": "value_006422e0ace97490"
+          },
+          {
+            "count": 1,
+            "value_token": "value_007bbd295236dd94"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00b5082a196cd55c"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 0.4213731,
+          "mean": 0.4006764933197785,
+          "median": 0.4006052,
+          "minimum": 0.3862499,
+          "q1": 0.39870407575000005,
+          "q3": 0.402788675,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 0.0033071985077813885
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "13号染色体的Z值",
+        "column_index": 16,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 1082,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 1,
+            "value_token": "value_00007abdb191d6b4"
+          },
+          {
+            "count": 1,
+            "value_token": "value_002f0ee7f932fcf7"
+          },
+          {
+            "count": 1,
+            "value_token": "value_005daf473ed9e28f"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00728f4de2507f1f"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00ce48c15b7af2f5"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 5.676687906,
+          "mean": 0.31214734582347514,
+          "median": 0.1617448055,
+          "minimum": -3.527318775,
+          "q1": -0.524371153,
+          "q3": 1.01464646725,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 1.2113924681320731
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "18号染色体的Z值",
+        "column_index": 17,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 1082,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 1,
+            "value_token": "value_0064e7de397ae599"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00936edf58369acb"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00b002b59d24ab9a"
+          },
+          {
+            "count": 1,
+            "value_token": "value_013461528fb9e29f"
+          },
+          {
+            "count": 1,
+            "value_token": "value_01d46f1805a4d944"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 6.076343685,
+          "mean": 0.5832121545295756,
+          "median": 0.4319220145,
+          "minimum": -3.262149334,
+          "q1": -0.2633557065,
+          "q3": 1.3425244945,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 1.288590072204444
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "21号染色体的Z值",
+        "column_index": 18,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 1082,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 1,
+            "value_token": "value_0057f9adaf39dd38"
+          },
+          {
+            "count": 1,
+            "value_token": "value_0061023fcad5e89d"
+          },
+          {
+            "count": 1,
+            "value_token": "value_006184833217ae3d"
+          },
+          {
+            "count": 1,
+            "value_token": "value_008e1711f1bf3a55"
+          },
+          {
+            "count": 1,
+            "value_token": "value_008e673c57f75f2c"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 3.137182924,
+          "mean": -0.11570941281977819,
+          "median": -0.1582004435,
+          "minimum": -3.289375849,
+          "q1": -0.8313365195,
+          "q3": 0.65881366725,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 1.098918704260934
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "X染色体的Z值",
+        "column_index": 19,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 1082,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 1,
+            "value_token": "value_00bee6bd903b3369"
+          },
+          {
+            "count": 1,
+            "value_token": "value_010fb0fcedcd112a"
+          },
+          {
+            "count": 1,
+            "value_token": "value_0113a8a86f022bd1"
+          },
+          {
+            "count": 1,
+            "value_token": "value_01399862ddeaa6af"
+          },
+          {
+            "count": 1,
+            "value_token": "value_01650e3f1534f576"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 7.867669632,
+          "mean": 0.3251784354417744,
+          "median": 0.26840457549999996,
+          "minimum": -3.919147889,
+          "q1": -0.460765555,
+          "q3": 1.07350434925,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 1.2928932169573666
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "Y染色体的Z值",
+        "column_index": 20,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 1082,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 1,
+            "value_token": "value_005103d8fb2418b6"
+          },
+          {
+            "count": 1,
+            "value_token": "value_0068d3244d5a898c"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00a2a027ead5b723"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00aecdaa725ef792"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00b3db7d0214a939"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 7.000856057,
+          "mean": 0.1561425344519409,
+          "median": 0.1134660735,
+          "minimum": -4.005487139,
+          "q1": -0.6166873507499999,
+          "q3": 0.96145748725,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 1.3077288631066422
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "Y染色体浓度",
+        "column_index": 21,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 1082,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 1,
+            "value_token": "value_0015bf526fcd679c"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00442037a8f38010"
+          },
+          {
+            "count": 1,
+            "value_token": "value_008acf18b15f20bb"
+          },
+          {
+            "count": 1,
+            "value_token": "value_01004dacf55cf685"
+          },
+          {
+            "count": 1,
+            "value_token": "value_0100e83e4793aaab"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 0.234217554,
+          "mean": 0.07718697843807767,
+          "median": 0.0724402335,
+          "minimum": 0.010003887,
+          "q1": 0.0508642055,
+          "q3": 0.096148025,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 0.033518410457044664
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "X染色体浓度",
+        "column_index": 22,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 1082,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 1,
+            "value_token": "value_002d2cb330404adb"
+          },
+          {
+            "count": 1,
+            "value_token": "value_0036e74118d4b5e8"
+          },
+          {
+            "count": 1,
+            "value_token": "value_009c8fbce3182d50"
+          },
+          {
+            "count": 1,
+            "value_token": "value_0132e0af8b1c93fb"
+          },
+          {
+            "count": 1,
+            "value_token": "value_013ea935b1084760"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 0.223932573,
+          "mean": 0.057024936271719055,
+          "median": 0.056216674,
+          "minimum": -0.076508263,
+          "q1": 0.03051072975,
+          "q3": 0.083380875,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 0.04146497695657224
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "13号染色体的GC含量",
+        "column_index": 23,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 1081,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 2,
+            "value_token": "value_c877158f338450f6"
+          },
+          {
+            "count": 1,
+            "value_token": "value_003506d15fc4f3cb"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00429b5778aa5ede"
+          },
+          {
+            "count": 1,
+            "value_token": "value_0051ba3ab8582d82"
+          },
+          {
+            "count": 1,
+            "value_token": "value_0060b9d4297a8839"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 0.402934581,
+          "mean": 0.37869339784103456,
+          "median": 0.37852384149999996,
+          "minimum": 0.366486967,
+          "q1": 0.37687517524999997,
+          "q3": 0.38027367224999997,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 0.0031643940914512212
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "18号染色体的GC含量",
+        "column_index": 24,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 1082,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 1,
+            "value_token": "value_000c897065c7af02"
+          },
+          {
+            "count": 1,
+            "value_token": "value_0057dbce08499aef"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00a9465fce71bb09"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00baac767bbce5fd"
+          },
+          {
+            "count": 1,
+            "value_token": "value_023270152dfd0497"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 0.412192792,
+          "mean": 0.39147874860905735,
+          "median": 0.391360343,
+          "minimum": 0.378464788,
+          "q1": 0.389697662,
+          "q3": 0.39326780325,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 0.0030202677864658006
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "21号染色体的GC含量",
+        "column_index": 25,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 1082,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 1,
+            "value_token": "value_006a4f2e1e4ee613"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00778b7b8b98b454"
+          },
+          {
+            "count": 1,
+            "value_token": "value_011e9fde9fca16f7"
+          },
+          {
+            "count": 1,
+            "value_token": "value_013249434db97aef"
+          },
+          {
+            "count": 1,
+            "value_token": "value_014507b0fa0b0ae6"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 0.425052136,
+          "mean": 0.4008507287033274,
+          "median": 0.400677414,
+          "minimum": 0.385214418,
+          "q1": 0.39875828449999995,
+          "q3": 0.40303813699999996,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 0.003809589639547942
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "被过滤掉读段数的比例",
+        "column_index": 26,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 1082,
+        "inferred_kind": "numeric",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 1,
+            "value_token": "value_005c51aa6041e519"
+          },
+          {
+            "count": 1,
+            "value_token": "value_00d25d145972a20a"
+          },
+          {
+            "count": 1,
+            "value_token": "value_015e0af5cd13c0e5"
+          },
+          {
+            "count": 1,
+            "value_token": "value_01685ad44408d501"
+          },
+          {
+            "count": 1,
+            "value_token": "value_017458432dc21567"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 0.037834786,
+          "mean": 0.023043272059149727,
+          "median": 0.022896563,
+          "minimum": 0.011982671,
+          "q1": 0.0209369755,
+          "q3": 0.0249845535,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 0.0034032095124037452
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "染色体的非整倍体",
+        "column_index": 27,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 5,
+        "inferred_kind": "text",
+        "missing_count": 956,
+        "missing_fraction": 0.8835489833641405,
+        "most_frequent_value_tokens": [
+          {
+            "count": 57,
+            "value_token": "value_3658b19c38b7371e"
+          },
+          {
+            "count": 25,
+            "value_token": "value_f66231b95897bb32"
+          },
+          {
+            "count": 23,
+            "value_token": "value_530e412215311069"
+          },
+          {
+            "count": 20,
+            "value_token": "value_b8ad93afc5dee8c1"
+          },
+          {
+            "count": 1,
+            "value_token": "value_7ddf8d3e1524facd"
+          }
+        ],
+        "non_missing_count": 126,
+        "numeric_parse_count": 0,
+        "text_aggregates": {
+          "count": 126,
+          "maximum_character_count": 9,
+          "mean_character_count": 3.642857142857143
+        },
+        "text_parse_count": 126
+      },
+      {
+        "column_id": "怀孕次数",
+        "column_index": 28,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 3,
+        "inferred_kind": "mixed",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 552,
+            "value_token": "value_d11015b966c44696"
+          },
+          {
+            "count": 300,
+            "value_token": "value_7faa2131d65df4c3"
+          },
+          {
+            "count": 230,
+            "value_token": "value_4b2dd5566bf1eea4"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 782,
+          "maximum": 2.0,
+          "mean": 1.294117647058824,
+          "median": 1.0,
+          "minimum": 1.0,
+          "q1": 1.0,
+          "q3": 2.0,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 0.4559367124473797
+        },
+        "numeric_parse_count": 782,
+        "text_aggregates": {
+          "count": 300,
+          "maximum_character_count": 2,
+          "mean_character_count": 2.0
+        },
+        "text_parse_count": 300
+      },
+      {
+        "column_id": "生产次数",
+        "column_index": 29,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 4,
+        "inferred_kind": "integer",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 751,
+            "value_token": "value_db52dffbaffbaf49"
+          },
+          {
+            "count": 263,
+            "value_token": "value_d11015b966c44696"
+          },
+          {
+            "count": 56,
+            "value_token": "value_4b2dd5566bf1eea4"
+          },
+          {
+            "count": 12,
+            "value_token": "value_a9065080f34dc675"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_aggregates": {
+          "count": 1082,
+          "maximum": 3.0,
+          "mean": 0.3798521256931611,
+          "median": 0.0,
+          "minimum": 0.0,
+          "q1": 0.0,
+          "q3": 1.0,
+          "quantile_sample_count": 512,
+          "quantiles_from_bounded_sample": true,
+          "sample_standard_deviation": 0.6371775009776979
+        },
+        "numeric_parse_count": 1082,
+        "text_parse_count": 0
+      },
+      {
+        "column_id": "胎儿是否健康",
+        "column_index": 30,
+        "distinct_count_is_lower_bound": false,
+        "distinct_value_count_or_lower_bound": 2,
+        "inferred_kind": "text",
+        "missing_count": 0,
+        "missing_fraction": 0.0,
+        "most_frequent_value_tokens": [
+          {
+            "count": 1044,
+            "value_token": "value_ce047c2e0d2d9cf0"
+          },
+          {
+            "count": 38,
+            "value_token": "value_b5d46f1191dc5d61"
+          }
+        ],
+        "non_missing_count": 1082,
+        "numeric_parse_count": 0,
+        "text_aggregates": {
+          "count": 1082,
+          "maximum_character_count": 1,
+          "mean_character_count": 1.0
+        },
+        "text_parse_count": 1082
+      }
+    ],
+    "duplicate_row_count_in_scanned_rows": 0,
+    "duplicate_tracking_truncated": false,
+    "identifier_redaction": "sanitized opt-in",
+    "limitations": [
+      "Dtypes are inferred from scanned text and are not a data dictionary.",
+      "Quantiles use a deterministic bounded sample when numeric counts exceed the sample limit.",
+      "Duplicate counts use exact hashes only until the documented tracking cap."
+    ],
+    "missing_code_policy": {
+      "additional_token_count": 0,
+      "empty_or_whitespace_is_missing": true,
+      "tokens_are_not_emitted": true
+    },
+    "profile_type": "tabular_schema_and_aggregate_profile",
+    "raw_values_emitted": false,
+    "row_limit_reached": false,
+    "rows_scanned": 1082
+  },
+  "eda_guardrails": {
+    "automatic_deletion": false,
+    "automatic_imputation": false,
+    "automatic_transformation": false,
+    "causal_claims": false,
+    "embedded_text_or_metadata_treated_as_instructions": false,
+    "exploratory_not_confirmatory": true,
+    "full_paths_emitted": false,
+    "raw_input_modified": false,
+    "raw_values_emitted": false,
+    "required_context_not_inferred": [
+      "data dictionary and units",
+      "sampling and experimental design",
+      "subject/sample/group/time structure",
+      "missing-value codes and mechanisms",
+      "censoring and detection limits",
+      "train/validation/test boundaries",
+      "pre-specified hypothesis families and multiplicity plan"
+    ]
+  },
+  "manifest": {
+    "capability": {
+      "dependency": "Python standard library",
+      "depth": "bounded schema, aggregate profile, missingness, and sensitivity audit",
+      "format": "CSV",
+      "reference": "references/general_scientific_formats.md",
+      "suffix": ".csv",
+      "tier": "automated_core"
+    },
+    "file": {
+      "basename": "sheet_male.csv",
+      "file_id": "file_b881b47718706afd",
+      "full_path_emitted": false,
+      "regular_file": true,
+      "size_bytes": 303757,
+      "symlink": false
+    },
+    "inspection": {
+      "content_values_read": false,
+      "format_signature_checked": false,
+      "reference_only": false
+    },
+    "schema_version": "1.1"
+  },
+  "recommended_next_steps": [
+    "Preserve the raw file read-only and record provenance/checksums separately.",
+    "Confirm the data dictionary, units, design, and missing/censoring codes.",
+    "Run the missingness/leakage and distribution sensitivity CLIs for tabular data.",
+    "Fit imputers, scalers, transformations, and feature selection on training data only.",
+    "Label generated hypotheses as exploratory and confirm them on independent data."
+  ],
+  "report_type": "bounded_exploratory_data_analysis",
+  "schema_version": "1.1"
+}
