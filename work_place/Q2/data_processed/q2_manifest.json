@@ -1,0 +1,29 @@
+{
+  "seed": 20260824,
+  "q1_hashes": {
+    "work_place\\Q1\\data_processed\\q1_round2_model_data.csv": "19f9012438933933ee46c81fc377c2195f07ad65648ae74e9d034c4a251bfe88",
+    "work_place\\Q1\\code\\m4_round2.R": "1638f7f11db5cb6bcd96b3b34ef9fc70b930e6973eedda92a1b0afd11180b9e7",
+    "C题\\附件.xlsx": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af"
+  },
+  "q1_conditional_r2": 0.826366221203597,
+  "patient_bmi_definition": "earliest biological observation per patient",
+  "n_patients": 267,
+  "ga_grid": {
+    "min": 10.0,
+    "max": 25.0,
+    "step": 0.1
+  },
+  "min_group_size": 30,
+  "candidate_K": [
+    2,
+    3,
+    4,
+    5
+  ],
+  "selected_K": 3,
+  "pooled_measurement_variance": 3.7534553436952526e-05,
+  "pooled_measurement_sd": 0.006126544983671672,
+  "random_effect_quadrature_nodes": 30,
+  "measurement_error_quadrature_nodes": 21,
+  "r_runtime_stderr": ""
+}
