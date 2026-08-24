@@ -1,0 +1,6 @@
+﻿record_type,status,Q2_cutpoint,Q3_cutpoint,Q2_BMI_cutpoint,Q3_BMI_cutpoint,BMI_cutpoint_shift,Q2_Group,Q3_Group,Q2_BMI_interval,Q3_BMI_interval,Q2_N,Q3_N,Q2_t50,Q3_t50,shift_t50,Q2_t70,Q3_t70,shift_t70,Q2_t90,Q3_t90,shift_t90,Q2_minimax_GA,Q3_minimax_GA,shift_minimax_GA
+cutpoint,removed,1.0,,32.0931884444288,,,,,,,,,,,,,,,,,,,,
+cutpoint,retained,2.0,1.0,35.2208681140727,35.2208681140727,0.0,,,,,,,,,,,,,,,,,,
+group_mapping,matched_by_BMI_overlap,,,,,,1.0,1.0,"[20.70, 32.09]","[20.70, 35.22]",158.0,237.0,10.0,10.0,0.0,10.0,10.0,0.0,17.2,17.3,0.10000000000000142,13.9,13.9,0.0
+group_mapping,matched_by_BMI_overlap,,,,,,2.0,1.0,"(32.09, 35.22]","[20.70, 35.22]",79.0,237.0,10.0,10.0,0.0,10.6,10.0,-0.5999999999999996,18.4,17.3,-1.0999999999999979,14.1,13.9,-0.1999999999999993
+group_mapping,matched_by_BMI_overlap,,,,,,3.0,2.0,"(35.22, 46.88]","(35.22, 46.88]",30.0,30.0,10.5,10.8,0.3000000000000007,13.5,13.9,0.40000000000000036,21.3,21.5,0.1999999999999993,15.4,15.6,0.1999999999999993

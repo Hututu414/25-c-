@@ -1,0 +1,8 @@
+﻿content,Q2,Q3,change
+K,3,2,-1
+BMI cutpoints,32.0932; 35.2209,35.2209,group-wise details in shift table
+group N,158; 79; 30,237; 30,group-wise details in shift table
+Minimax timing,13.9; 14.1; 15.4,13.9; 15.6,group-wise details in shift table
+50% timing,10.0; 10.0; 10.5,10.0; 10.8,group-wise details in shift table
+70% timing,10.0; 10.6; 13.5,10.0; 13.9,group-wise details in shift table
+90% timing,17.2; 18.4; 21.3,17.3; 21.5,group-wise details in shift table

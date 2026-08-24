@@ -1,0 +1,72 @@
+{
+  "seed": 20260824,
+  "frozen_contracts_before": {
+    "Q1": {
+      "sha256": "950be5f0b1cc9da49a2ca220b9bfb37e5a3e6a13c4b1572a4682e0e8838ae53b",
+      "files": 59
+    },
+    "Q2": {
+      "sha256": "2163cf0f1885c246a41d72c681152619100050868da93d03a5b24580b062e434",
+      "files": 51
+    }
+  },
+  "frozen_contracts_after": {
+    "Q1": {
+      "sha256": "950be5f0b1cc9da49a2ca220b9bfb37e5a3e6a13c4b1572a4682e0e8838ae53b",
+      "files": 59
+    },
+    "Q2": {
+      "sha256": "2163cf0f1885c246a41d72c681152619100050868da93d03a5b24580b062e434",
+      "files": 51
+    }
+  },
+  "source_xlsx_sha256": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af",
+  "q1_data_sha256": "19f9012438933933ee46c81fc377c2195f07ad65648ae74e9d034c4a251bfe88",
+  "height_audit": {
+    "source_rows": 1082,
+    "q1_aggregated_rows": 1022,
+    "patients": 267,
+    "height_missing": 0,
+    "patients_with_recorded_height_variation": 5,
+    "height_min": 144.0,
+    "height_max": 175.0,
+    "profile_definition": "earliest biological observation per patient; no future-patient information"
+  },
+  "model_formula": "Y ~ s(GA_c, k = 5) + s(BMI_c, k = 5) + ti(GA_c, BMI_c, k = c(5,      5)) + s(Height_c, k = 4) + AGE_c + gravidity_cat + parity +      conception_mode + s(patient_id, bs = \"re\")",
+  "n_patients": 267,
+  "ga_grid": {
+    "min": 10.0,
+    "max": 25.0,
+    "step": 0.1
+  },
+  "candidate_K": [
+    3
+  ],
+  "selected_K": 3,
+  "min_group_size": 20,
+  "random_effect_handling": "30-node Gauss-Hermite marginalization with zero fixed-covariate offset",
+  "measurement_error_source": "Q2/data_processed/error_scenarios.csv",
+  "r_runtime_stderr": "",
+  "K_selection_basis": "patient-level bootstrap OOB + 1-SE rule",
+  "formal_BMI_cutpoints": [
+    31.743230699999998,
+    36.09730783
+  ],
+  "formal_group_sizes": [
+    146,
+    101,
+    20
+  ],
+  "formal_minimax_timings": [
+    13.8,
+    14.1,
+    16.1
+  ],
+  "bootstrap_stability": {
+    "c1_within_full_plus_minus_1_BMI": 0.678,
+    "c2_within_full_plus_minus_1_BMI": 0.986,
+    "timing_monotonic_main": 1.0,
+    "timing_monotonic_review": 0.998
+  },
+  "freeze_status": "FINAL_Q3_K3"
+}

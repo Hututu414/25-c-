@@ -1,0 +1,5 @@
+﻿scenario,K,total_curve_error,min_group_size,min_group_N,max_group_N,cutpoints,selected,selection_basis
+no_error,3,8.177621435421315,20,20,146,31.7432; 36.0973,True,patient-level bootstrap OOB + 1-SE rule
+measurement_0_75,3,8.007108913319172,20,20,146,31.7432; 36.0973,True,patient-level bootstrap OOB + 1-SE rule
+measurement_1_00,3,7.884994057075289,20,20,146,31.7432; 36.0973,True,patient-level bootstrap OOB + 1-SE rule
+measurement_1_25,3,7.740151417358277,20,20,146,31.7432; 36.0973,True,patient-level bootstrap OOB + 1-SE rule
