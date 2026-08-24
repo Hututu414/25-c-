@@ -1,0 +1,17 @@
+{
+  "source": "C题\\附件.xlsx",
+  "source_sha256": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af",
+  "source_rows": 1082,
+  "source_patients": 267,
+  "aggregated_rows": 1022,
+  "technical_repeat_groups": 39,
+  "technical_repeat_rows_removed": 60,
+  "patient_draw_groups": 1021,
+  "patient_draw_ga_groups": 1022,
+  "patient_draw_groups_with_multiple_GA": 1,
+  "response_min": 0.010003887,
+  "response_max": 0.234217554,
+  "group_cv": "GroupKFold(n_splits=5), groups=patient_id",
+  "seed": 20260824,
+  "privacy": "patient_id is a stable project-local pseudonym; original codes are not exported"
+}

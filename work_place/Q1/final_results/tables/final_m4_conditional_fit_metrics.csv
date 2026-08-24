@@ -1,0 +1,2 @@
+﻿Model,Evaluation,Fitted_values,N_observations,N_patients,k,R2,RMSE,MAE
+M4 Beta-GAMM,conditional in-sample fit,fixed effects + patient random effects estimated from all observations,1022,267,5,0.8263662212036017,0.013898589752446575,0.009752282898489664

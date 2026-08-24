@@ -1,0 +1,11 @@
+{
+  "source": "C题\\附件.xlsx",
+  "source_sha256": "14827156218bd4f7e4f16db4aa6d9f757c6648379e038ae6c6b58383648614af",
+  "source_rows": 1082,
+  "source_patients": 267,
+  "aggregated_rows": 1022,
+  "technical_repeat_rows_removed": 60,
+  "group_cv": "GroupKFold(n_splits=5), groups=patient_id",
+  "seed": 20260824,
+  "model_data": "q1_round2_model_data.csv"
+}
