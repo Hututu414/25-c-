@@ -1,0 +1,14 @@
+﻿Model,Accuracy,Weighted Recall,Weighted F1,Weighted Precision,Evaluation protocol,Reference status,Sheet
+M1-raw,0.22148760330578512,0.22148760330578512,0.3398389275577857,0.839458153075071,Patient-level Group-CV,Strict OOF; used for our evaluation,strict_group_cv
+M1-cal,0.2578512396694215,0.2578512396694215,0.3811436195262702,0.8637532002048132,Patient-level Group-CV,Strict OOF; used for our evaluation,strict_group_cv
+M1-U,0.27768595041322314,0.27768595041322314,0.4062214180221725,0.84421140648661,Patient-level Group-CV,Strict OOF; used for our evaluation,strict_group_cv
+M1-H,0.2793388429752066,0.2793388429752066,0.41237999772194744,0.8557867133378841,Patient-level Group-CV,Strict OOF; used for our evaluation,strict_group_cv
+M1-HP,0.26611570247933886,0.26611570247933886,0.39877202278262236,0.8534017174169493,Patient-level Group-CV,Strict OOF; used for our evaluation,strict_group_cv
+Random Forest,0.25950413223140495,0.25950413223140495,0.38792634128699416,0.838885047014011,Patient-level Group-CV,Strict OOF; used for our evaluation,strict_group_cv
+LightGBM,0.11074380165289256,0.11074380165289256,0.18094535025005046,0.8362525046749646,Patient-level Group-CV,Strict OOF; used for our evaluation,strict_group_cv
+RF-paper-style,0.3322314049586777,0.3322314049586777,0.46598682292075805,0.838095459043641,Patient-level Group-CV,Strict OOF; used for our evaluation,strict_group_cv
+国一论文 Random Forest（论文报告）,0.9125,0.9125,0.8706,,70/30 row-level split reported in paper,External paper value; not ranked,strict_group_cv
+M1-U,0.35714285714285715,0.35714285714285715,0.49900320918020036,0.8777717817896389,70/30 row-level split,Reference-only; possible same-patient leakage,paper_protocol_reference
+Random Forest,0.3021978021978022,0.3021978021978022,0.43592122163550734,0.8630402930402932,70/30 row-level split,Reference-only; possible same-patient leakage,paper_protocol_reference
+LightGBM,0.13736263736263737,0.13736263736263737,0.23673135375263035,0.8558748943364328,70/30 row-level split,Reference-only; possible same-patient leakage,paper_protocol_reference
+RF-paper-style,0.5824175824175825,0.5824175824175825,0.6885021952733053,0.859112516322129,70/30 row-level split,Reference-only; possible same-patient leakage,paper_protocol_reference

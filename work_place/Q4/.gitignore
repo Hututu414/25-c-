@@ -1,0 +1,9 @@
+!.gitignore
+!**/*.md
+
+__pycache__/
+*.pyc
+.project-tmp/
+.calibration_cache/
+*.inspect.ndjson
+.q4_*_payload.json

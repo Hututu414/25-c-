@@ -1,0 +1,22 @@
+{
+  "source": "C题\\附件.xlsx",
+  "sheet": "female sheet (index 1)",
+  "rows": 605,
+  "patients": 147,
+  "normal_rows": 538,
+  "abnormal_rows": 67,
+  "positive_rows": {
+    "T13": 23,
+    "T18": 46,
+    "T21": 13
+  },
+  "positive_patients": {
+    "T13": 18,
+    "T18": 30,
+    "T21": 12
+  },
+  "BMI_missing": 1,
+  "label_contract": "AB is the task-specified observed decision label, not a verified karyotype truth",
+  "AE_used": false,
+  "male_rows_used": 0
+}
